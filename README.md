@@ -3,6 +3,8 @@
 ## 📝 Descrição
 Este projeto é uma implementação interativa e visual da Tabela Periódica dos Elementos, desenvolvida usando HTML e CSS. A tabela apresenta todos os 118 elementos químicos conhecidos, organizados de forma clara e intuitiva.
 
+![tabela](/img.jpg)
+
 ## ✨ Características
 - Visualização completa dos 118 elementos químicos
 - Design responsivo e moderno
