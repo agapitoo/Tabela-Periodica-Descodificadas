@@ -1,0 +1,92 @@
+/* Estilo para o container principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilos do cabeçalho */
+.header {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+  background: linear-gradient(45deg, #2c3e50, #3498db);
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.header p {
+  font-size: 1.2em;
+  margin: 10px 0 0;
+  font-family: 'Arial', sans-serif;
+  opacity: 0.9;
+}
+
+/* Centralização da tabela */
+.periodic-table-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  overflow-x: auto;
+  padding: 20px 0;
+}
+
+.periodic-table {
+  font-family: Arial, sans-serif;
+  border-collapse: separate;
+  border-spacing: 2px;
+  margin: 0 auto; /* Adiciona margem automática */
+}
+
+.element {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 2px;
+  position: relative;
+}
+
+.atomic-number {
+  font-size: 10px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.symbol {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 12px;
+  display: block;
+}
+
+.name {
+  font-size: 8px;
+  display: block;
+}
+
+/* Cores dos grupos */
+.metal-alcalino { background-color: #ff9999; }
+.metal-alcalino-terroso { background-color: #ffdead; }
+.metal-transicao { background-color: #ffc0c0; }
+.metal-representativo { background-color: #cccccc; }
+.semimetal { background-color: #98fb98; }
+.nao-metal { background-color: #87cefa; }
+.halogenio { background-color: #f0e68c; }
+.gas-nobre { background-color: #c8a2c8; }
+.lantanideo { background-color: #ffbfff; }
+.actinidio { background-color: #ff99cc; }
+
+.empty {
+  border: none;
+}
